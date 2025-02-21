@@ -22,7 +22,7 @@ def chat(query_input: QueryInput):
     answer = rag_chain.invoke({
         "input": query_input.question,
         "chat_history": chat_history
-    })
+    })['answer']
 
     insert_application_logs(session_id, query_input.question, answer, query_input.model.value)
     logging.info(f"Session ID: {session_id}, AI Response: {answer}")
