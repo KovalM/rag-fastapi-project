@@ -4,7 +4,7 @@ from langchain_core.prompts import PromptTemplate
 
 
 qa_prompt = PromptTemplate.from_template(
-    "Answer on {input} based on {context}"
+    "Answer on {input}. Previous dialog history is {chat_history}"
 )
 
 def get_rag_chain(model="llama3.2"):
