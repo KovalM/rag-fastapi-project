@@ -1,5 +1,10 @@
 langchain
 langchain-core
 langchain_community
+langchain_chroma
+docx2txt
+pypdf
+python-multipart
+sentence-transformers
 fastapi
 uvicorn
