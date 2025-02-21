@@ -38,7 +38,7 @@ ENV/
 temp_*
 .coverage
 htmlcov/
-.pytest_cache/
+.pytest_cache/``
 .mypy_cache/
 
 # Database
@@ -46,4 +46,4 @@ htmlcov/
 *.sqlite3
 
 # Chroma
-.chroma/
+api/chroma_db
