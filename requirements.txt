@@ -1,7 +1,12 @@
+ollama
+
 langchain
+langchain_ollama
 langchain-core
 langchain_community
 langchain_chroma
+langchain-huggingface
+
 docx2txt
 pypdf
 python-multipart
@@ -10,6 +15,9 @@ fastapi
 uvicorn
 streamlit
 
-ollama
-langchain_ollama
-
+# langchain_course
+langchain-experimental
+docarray
+wikipedia
+numexpr
+DateTime
